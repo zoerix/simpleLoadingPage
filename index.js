@@ -19,7 +19,7 @@ function waitForPage(time) {
     });
 }
 
-waitForPage(6000).then(
+waitForPage(4000).then(
     (val) => { 
         if(val) {
             pageElement.style.display = "block";    
